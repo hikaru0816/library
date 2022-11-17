@@ -1,0 +1,17 @@
+body {
+  padding: 64px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  /* transition-property: transform;
+  transition-duration: .3s;
+  transition-timing-function: ease-out; */
+  transition: transform .3s ease-out 1s;
+}
+
+.box:hover {
+  transform: translateX(30px);
+}
